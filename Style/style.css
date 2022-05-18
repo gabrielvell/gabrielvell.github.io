@@ -1,0 +1,24 @@
+body {
+    background-color: black;
+}
+
+div {
+    padding: 15px; /* set padding for all four sides */
+    margin: 20px auto; /* set top and bottom margin to 20 pixels, and left and right margin to auto */
+}
+
+/* # was used to target specific elements within IDs*/
+#logoCard{
+    width: 20%;
+}
+
+#cardContainer{
+    width: 100%;
+    align-content: center;
+    margin-top: 10%;
+}
+
+#cardText{
+    text-align: center;
+    color: white;
+}
