@@ -1,20 +1,25 @@
 body {
     background-color: black;
+    justify-content: center;
 }
 
 div {
-    padding: 15px; /* set padding for all four sides */
-    margin: 20px auto; /* set top and bottom margin to 20 pixels, and left and right margin to auto */
+    margin: auto; /* set top and bottom margin to 20 pixels, and left and right margin to auto */
 }
 
 /* # was used to target specific elements within IDs*/
 #logoCard{
-    width: 20%;
+    min-width: fit-content;
+    max-width: fit-content;
 }
 
-#cardContainer{
-    width: 100%;
-    align-content: center;
+#subMenu{
+    position: relative;
+    z-index: 1;
+    border-radius: inherit;
+    padding: 2.5rem 2rem;
+    max-width: 100%;
+    justify-content: center;
 }
 
 #cardText{
