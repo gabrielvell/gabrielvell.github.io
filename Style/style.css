@@ -9,7 +9,7 @@ div {
 
 /* # was used to target specific elements within IDs*/
 #logoCard{
-    width: 50%;
+    width: 25%;
 }
 
 #subMenu{
@@ -30,6 +30,7 @@ div {
     justify-content: center;
     letter-spacing: 1px;
     font-family: 'Poppins', sans-serif;
+    width: 90%;
 }
 
 #blockLink{
@@ -48,6 +49,7 @@ div {
     color: white;
     letter-spacing: 1px;
     font-family: 'Poppins', sans-serif;
+    size: 30%;
 }
 
 #aboutPar{
