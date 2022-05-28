@@ -67,5 +67,11 @@ div {
 
 #gabrielPicture{
     width: 50%;
-    
+}
+
+#catPics{
+    width: 25%;
+    border-spacing: 7px;
+    -ms-flex-align: center;
+    padding: 10px 35px
 }
