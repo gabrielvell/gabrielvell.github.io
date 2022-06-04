@@ -184,3 +184,26 @@ img {
     background-position: center center;
     background-color: black;
 }
+
+.btn-send {
+    background-color: #EC008C !important;
+    border-color: #EC008C;
+    border:0 !important;
+    background:none;
+    border-radius: 0px;
+    -webkit-border-radius: 100%;
+}
+
+.btn-send:hover{
+    background-color: #6e154a !important;
+    border-color: #6e154a !important;
+}
+
+.bordered {
+    padding: 100px;
+    border-width: 2px;
+    border-color: #EC008C;
+    border-style: solid;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+}
