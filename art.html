@@ -9,7 +9,13 @@
     <title>Gabriel's Art Pieces</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="Style/style.css">
+        <link rel="stylesheet" href="Style/style.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Nunito&family=Poppins:wght@700&display=swap');
 </style>
@@ -47,24 +53,49 @@
                 </card>
             </nav>
         </div>
-        <div class="inner">
-            <div class="wrapper" id="designPieces">
-                <figure class="catMug">
-                    <img data-enlargeable width="100" style="cursor: zoom-in" src="images/art/character_outfit_design.png" alt="4 different outfit concept designs">
-                </figure>
-                <figure class="neonCat">
-                    <img src="images/art/amir_rendered.jpeg" alt="Rendered art of original character">
-                </figure>
-                <figure class="pawPoster">
-                    <img src="images/art/chinese_inspired_outfit (2).jpg" alt="Outfit concept design inspired by the chinese culture">
-                </figure>
-                <figure class="meowLock">
-                    <img src="images/art/chloe_original_character (2).jpg" alt="Original fighting game character with water abilities">
-                </figure>
-            </div>
+        <div id="aboutPar" class="col">
+            <h2><strong class="specialColor">DESIGN</strong></h2> <br>
+            <p>I often lean towards creating cute designs but have the confidence to try out different styles if need be.</p>
+            <p>Experimentation is something I keep in mind when creating any piece.</p>
+            <div class="container">
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                    <li data-target="#myCarousel" data-slide-to="3"></li>
+                    </ol>
+                
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="/images/art/chloe_original_character (2).jpg" alt="Mockup of a tshrit design">
+                    </div>
+                
+                    <div class="item">
+                        <img src="/images/art/amir_rendered.jpeg" alt="Design of a neon light outlining a cat">
+                    </div>
+            
+                    <div class="item">
+                        <img src="/images/art/character_outfit_design.png" alt="Vector art of a mug with a cat on it">
+                    </div>
+            
+                    <div class="item">
+                        <img src="/images/art/chinese_inspired_outfit (2).jpg" alt="Vector poster of a playing cat with a paw">
+                    </div>
+                    </div>
+    
+                            <!-- Left and right controls -->
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+            <button class="previous"></span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+            <button class="next"></span>
+            </a>
         </div>
-    </div>
-</div>
 
 
 
