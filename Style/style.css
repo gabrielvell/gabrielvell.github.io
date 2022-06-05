@@ -188,10 +188,11 @@ img {
 .btn-send {
     background-color: #EC008C !important;
     border-color: #EC008C;
-    border:0 !important;
+    border: transparent !important;
     background:none;
     border-radius: 0px;
-    -webkit-border-radius: 100%;
+    -webkit-border-radius: 1000%;
+    border-spacing: 50px;
 }
 
 .btn-send:hover{
@@ -210,4 +211,13 @@ img {
 
 .carousel-inner {
     width: 50%
+}
+
+#check {
+    position: relative;
+    top: 0;
+    transition: top ease 0.5s;
+}
+#check:hover {
+    top: -10px;
 }
